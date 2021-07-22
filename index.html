@@ -12,35 +12,34 @@
   </head>
   <body class="lh-lg">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white py-3">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">עו"ד אדיר אברהם</a>
+        <a class="navbar-brand mx-0 ms-lg-5" href="#home">עו"ד אדיר אברהם</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-0 mx-lg-1">
                 <a class="nav-link" aria-current="page" href="#home">דף הבית</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-0 mx-lg-1">
                 <a class="nav-link" href="#about">אודות</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown mx-0 mx-lg-1">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   תחומי עיסוק
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#body-ins">ביטוחי גוף</a></li>
-                  <li><a class="dropdown-item" href="#property-ins">ביטוחי רכוש</a></li>
-                  <li><a class="dropdown-item" href="#body-dmg">נזקי גוף</a></li>
-                  <li><a class="dropdown-item" href="#property-dmg">נזקי רכוש</a></li>
+                  <li><a class="dropdown-item" href="#insurance">דיני ביטוח</a></li>
+                  <li><a class="dropdown-item" href="#tort">דיני נזיקין</a></li>
+                  <li><a class="dropdown-item" href="#car-accitents">תאונות דרכים</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-0 mx-lg-1">
                 <a class="nav-link" href="#service">שירותי המשרד</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item mx-0 ms-lg-1 me-lg-5">
                 <a class="nav-link" href="#contact">צור קשר</a>
               </li>
             </ul>
@@ -48,15 +47,21 @@
       </div>
     </nav>
 
-    <section class="bg-white" id="home">
-      <div class="container py-5">
+    <section class="bg-white py-5" id="home">
+      <div class="container py-5" style="max-width: 1124px;">
         <div class="row align-items-center justify-content-evenly text-center text-sm-start py-5">
             
-          <div class="col-md-4">
-            <h1 class="display-4">
+          <div class="col-md-6">
+            <h1 class="display-5 fw-bold text-secondary">
               עו"ד אדיר אברהם
             </h1>
-            <p class="fs-5 text-muted">שנים רבות של ניסיון בתחום הביטוח, הנזיקין ותאונות דרכים.</p>
+            <div class="divider divider-right d-none d-sm-block"></div>
+            <div class="divider d-sm-block d-sm-none"></div>
+            <div class="lh-base fs-5 text-muted">
+              <p>שנים רבות של ניסיון בתחום הביטוח, הנזיקין ותאונות דרכים.</p>
+              <p>נשמח לעמוד לרשותכם.</p>
+              <p>03-6887077</p>
+            </div>
             <a class="btn btn-primary btn-lg mt-2" href="#about">קרא עוד</a>
             <a class="btn btn-outline-primary btn-lg mt-2" href="#contact">צור קשר</a>
           </div>
@@ -69,75 +74,75 @@
       </div>
     </section>
 
-    <section class="bg-light">
+    <section class="bg-light pb-4">
       <div class="container py-5">
-        <h2 class="text-center py-5 text-primary">תחומי עיסוק</h2>
-        <div class="row text-center row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
-    
+        <h2 class="text-center text-secondary">תחומי עיסוק</h2>
+        <div class="divider"></div>     
+        <div class="row row-cols-1 row-cols-lg-3 g-4 px-lg-5">
+          
           <div class="col">
-            <div class="card shadow" id="body-ins">
-              <div class="card-header bg-primary">
-                <div class="fs-4 fw-bold text-white">ביטוחי גוף</div>
+            <div class="card shadow h-100" id="insurance" style="border-radius: 10px;">
+              <div class="card-body"> 
+                  <div class="text-primary py-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-shield" viewBox="0 0 16 16">
+                      <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                    </svg>
+                  </div>
+                  <div class="card-title py-1 text-secondary">
+                    <h5>דיני ביטוח</h5>
+                  </div>
+                  <div class="card-text text-secondary fs-6">
+                    <p>תביעות מכח פוליסה (ביטוח חיים, אובדן כושר עבודה, פנסיה, בריאות, סיעוד ועוד).
+                      <br>תביעות מכח פוליסה (רכב, דירה, עסק ועוד).
+                      <br>פוליסות נסיעות לחו"ל.
+                    </p>
+                  </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">ביטוח חיים ומשכנתא</li>
-                <li class="list-group-item">ביטוח אובדן כושר עבודה</li>
-                <li class="list-group-item">ביטוח סיעוד</li>
-                <li class="list-group-item">ביטוח מחלות קשות</li>
-                <li class="list-group-item">ביטוח נכויות ותאונות אישיות</li>
-                <li class="list-group-item">הוצאות רפואיות וניתוחים</li>
-                <li class="list-group-item">קרנות פנסיה</li>
-                <li class="list-group-item">ביטוח לאומי</li>
-                <li class="list-group-item">ביטוח נסיעות לחו"ל</li>
-              </ul>
             </div>
           </div>
           
           <div class="col">
-            <div class="card shadow" id="property-ins">
-              <div class="card-header bg-primary">
-                <div class="fs-4 fw-bold text-white">ביטוחי רכוש</div>       
+            <div class="card shadow h-100" id="tort" style="border-radius: 10px;">    
+              <div class="card-body"> 
+                <div class="text-primary py-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calculator" viewBox="0 0 16 16">
+                    <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                    <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"/>
+                  </svg>
+                </div>
+                <div class="card-title py-1 text-secondary">
+                  <h5>דיני נזיקין</h5>
+                </div>
+                <div class="card-text text-secondary fs-6">
+                  <p>
+                    נזקי גוף (תאונות דרכים, תאונות עבודה ופגיעות בנסיבות אחרות).
+                    <br>נזקי רכוש (נזקי מים, נזקי אש, ליקויי בניה ועוד).
+                    <br>תביעות אחריות מקצועית.
+                  </p>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">ביטוח רכב</li>
-                <li class="list-group-item">ביטוח דירה</li>
-                <li class="list-group-item">ביטוח עסק</li>
-                <li class="list-group-item">ביטוח עבודות קבלניות</li>
-                <li class="list-group-item">ביטוח נסיעות לחו"ל</li>
-               <li class="list-group-item">ביטוח יהלומים ותכשיטים</li>
-              </ul>
             </div>
           </div>
 
           <div class="col">
-            <div class="card shadow" id="body-dmg">
-              <div class="card-header bg-primary">
-                <div class="fs-4 fw-bold text-white">נזקי גוף</div>     
+            <div class="card shadow h-100" id="car-accitents" style="border-radius: 10px;">
+              <div class="card-body"> 
+                  <div class="text-primary py-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bicycle" viewBox="0 0 16 16">
+                      <path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z"/>
+                    </svg>
+                  </div>
+                  <div class="card-title py-1 text-secondary">
+                    <h5>תאונות דרכים</h5>
+                  </div>
+                <div class="card-text text-secondary fs-6">
+                  <p>
+                    תביעות לתשלום פיצויים לנפגעי תאונות דרכים מכח פוליסת ביטוח חובה.
+                    <br>תביעות נזקים למשתמשי רכב והולכי רגל.
+                    <br>תביעות נגד קרנית.
+                  </p> 
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">תאונות דרכים</li>
-                <li class="list-group-item">תאונות עבודה</li>
-                <li class="list-group-item">נפילות ברשות הרבים</li>
-                <li class="list-group-item">תאונות ספורט</li>
-                <li class="list-group-item">נשיכות כלבים</li>
-                <li class="list-group-item">רשלנות מקצועית</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow" id="property-dmg">
-              <div class="card-header bg-primary">
-                <div class="fs-4 fw-bold text-white">נזקי רכוש </div>           
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">נזקי מים והצפות</li>
-                <li class="list-group-item">נזקי שריפה</li>
-                <li class="list-group-item">ליקויי בניה</li>
-                <li class="list-group-item">תאונות דרכים</li>
-                <li class="list-group-item">רשלנות מקצועית</li>
-                <li class="list-group-item">מוצרים פגומים</li>
-              </ul>
             </div>
           </div>
 
@@ -147,9 +152,10 @@
 
     <section class="bg-white" id="about">
       <div class="container py-5">
+        <h2 class="text-center text-secondary">אודות</h2>
+        <div class="divider"></div> 
         <div class="row align-items-center justify-content-between">
-          <h2 class="text-center py-3 text-primary">אודות</h2>
-        
+          
           <div class="col-lg-6">
             <div class="fs-5 fw-light">
               <p>עו"ד אדיר אברהם החל את דרכו המקצועית במשרד מוכר ומוביל בתחום הביטוח והנזיקין בישראל.</p>
@@ -161,97 +167,110 @@
           <div class="col-lg-5 text-center">
            <img src="./pics/about.png" alt="me" class="img-fluid">
           </div>
+        
         </div>
       </div>
     </section>
 
-
     <section class="bg-primary text-white fs-5 fw-light" id="service">
       <div class="container py-5">
+        <h2 class="text-center">שירותי המשרד</h2>
+        <div class="divider divider-light"></div> 
         <div class="row justify-content-center">
           
           <div class="col-lg-8">
-            <h2 class="text-center py-3">שירותי המשרד</h2>
             <p>המשרד מעניק ייצוג משפטי בתחום הביטוח והנזיקין, ומייצג את הלקוח בכל הערכאות המשפטיות הרלבנטיות.</p>
             <p>במסגרת תחום עיסוקו, מטפל המשרד בתביעות פיצויים ותגמולי ביטוח בגין נזקי רכוש וגוף שנגרמו כתוצאה מתאונות שונות, כגון: תאונות דרכים, תאונות אישיות, תאונות תלמידים ועוד.</p>
             <p>במסגרת תחום התביעות מול המוסד לביטוח לאומי, מטפל המשרד בתביעות בגין תאונות עבודה, בתביעות נכות כללית, ומייצג את הלקוח מול הוועדות הרפואיות השונות.</p>
             <p>בתחום הביטוח, מייצג המשרד את הלקוח בתביעות מול חברות הביטוח השונות, בגין ביטוחי רכוש, אובדן כושר עבודה, נכות, סיעוד, תאונות אישיות, מחלות, פנסיה, הוצאות רפואיות ועוד.</p>
             <p>משרד עו"ד אדיר אברהם מעניק שירות אישי ללקוח, ומתאים את השירות לצרכיו הייחודיים, תוך מתן ייעוץ וייצוג מקצועי ואיכותי. מתוך התחשבות בלקוחותיו המשרד לא גובה תשלום עבור ייעוץ ראשוני.</p>
           </div>
+        
         </div>
       </div>
     </section>
 
-    
     <section class="bg-white py-5" id="contact">
       <div class="container">
-        <h2 class="text-center pb-5 text-primary">צור קשר</h2>
-        
-        <div class="row justify-content-evenly text-center text-sm-start">
-          <div class="col-md-4 fs-4 fw-light">
-            <img src="./pics/contact_us.png" class="img-fluid">
-            <div class="lh-base">
-              <p> 
-                <span>
+        <h2 class="text-center text-secondary">צור קשר</h2>
+        <div  class="divider"></div>        
+        <div class="row justify-content-evenly mt-5">
+          
+          <div class="col-lg-5"> 
+            <div class="row row-cols-auto">  
+              <div class="col">
+                <span class="badge bg-primary p-3 rounded-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                   </svg>
                 </span>
-                <a target="_blank" class="text-decoration-none text-reset" href="https://ul.waze.com/ul?ll=32.19456000%2C34.88364336&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
-                  הנופר 5 (בית הנופר), רעננה  
-                </a>
-              </p>
-              <p>
-                <span>
+              </div> 
+              <div class="col">
+                <h4>כתובת:</h4>
+                <p>
+                  <a target="_blank" class="text-decoration-none text-reset" href="https://ul.waze.com/ul?ll=32.19456000%2C34.88364336&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+                    הנופר 5 (בית הנופר), רעננה ת.ד. 4099
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="row row-cols-auto">
+              <div class="col">
+                <span class="badge bg-primary p-3 rounded-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
                   </svg>
                 </span>
-               <a class="text-decoration-none text-reset" href="mailto:adir@eklaw.co.il">adir@eklaw.co.il</a>
-              </p>
-              <p>
-                <span>
+              </div>
+              <div class="col">
+                <h4>דוא"ל:</h4>
+                <p>
+                  <a class="text-decoration-none text-reset" href="mailto:adir@eklaw.co.il">adir@eklaw.co.il</a>
+                </p>
+              </div>
+            </div>
+            <div class="row row-cols-auto">
+              <div class="col">
+                <span class="badge bg-primary p-3 rounded-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
                     <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                   </svg>
                 </span>
-                <a class="text-decoration-none text-reset" href="tel:03-6887077">03-6887077</a>
-              </p>
-              <p>
-                <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
-                   <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
-                   <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"/>
-                  </svg>
-                </span>
-                03-6886669
-              </p>
+              </div>
+              <div class="col">
+                <h4>טלפון:</h4>
+                <p>
+                  <a class="text-decoration-none text-reset" href="tel:03-6887077">03-6887077</a>
+                </p>
+              </div>
             </div>
+
           </div>
 
-          <div class="col-md-4">    
-            <div>
-              <input type="text" class="form-control form-control-lg" id="floatingPassword" placeholder="שם מלא">
+          <div class="col-lg-5">        
+            <div class="row g-3">
+              <div class="col-lg-6">
+                <input type="text" class="form-control form-control-lg" id="floatingPassword" placeholder="שם מלא">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control form-control-lg" id="floatingPassword" placeholder="טלפון">
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control form-control-lg" id="floatingInput" placeholder="דואר אלקטרוני">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control form-control-lg" placeholder="כאן תוכלו לרשום את תוכן פנייתכם" id="floatingTextarea2" style="height: 150px; resize: none;"></textarea>
+              </div>
+              <div class="col-12 text-center">
+                <button class="btn btn-outline-primary btn-lg">שלח הודעה</button>
+              </div>
             </div>
-            <div class="my-3">
-              <input type="text" class="form-control form-control-lg" id="floatingInput" placeholder="אימייל">
-            </div>
-            <div>
-              <input type="text" class="form-control form-control-lg" id="floatingPassword" placeholder="טלפון">
-            </div>
-            <div class="my-3">
-             <textarea class="form-control form-control-lg" placeholder="כאן תוכלו לרשום את תוכן פנייתכם" id="floatingTextarea2" style="height: 150px; resize: none;"></textarea>
-           </div>
-           <div class="d-grid gap-2">
-             <button class="btn btn-outline-primary btn-lg">שלח</button>
-            </div>
+
           </div>
-
-
+          
         </div>
       </div>
     </section>
-
 
     <footer class="bg-light py-4">
       <div class="container">
